@@ -51,6 +51,7 @@ from __future__ import print_function
 import carla
 from carla import ColorConverter as cc
 
+import os
 import argparse
 import os
 import sys
@@ -995,5 +996,6 @@ def main():
 
 
 if __name__ == '__main__':
-
+    this_dir = os.path.split(__file__)[0]
+    os.chdir(this_dir)
     main()
