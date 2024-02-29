@@ -2,7 +2,7 @@ repo_name: 2lambda123/scenario_runner
 report_id: c6dfd9e4c136974a521d8a3a7e6de1dd
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-09T06:55:06+00:00'
+timestamp: '2024-02-29T19:17:39+00:00'
 requested_by: 2lambda123
 provider: github
 branch: master
@@ -112,7 +112,7 @@ tools:
   detection_source_url: https://github.com/2lambda123/scenario_runner
   detection_source: Repo Metadata
 - name: MkDocs
-  description: 'A static site generator '
+  description: A static site generator
   website_url: http://www.mkdocs.org/
   open_source: false
   hosted_saas: false
